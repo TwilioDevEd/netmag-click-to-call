@@ -31,7 +31,7 @@ app.post('/calls/forward', function(request, response) {
   response.send('');
 });
 
-// Start the app listening on the defined port (or 3000 by defauly)
+// Start the app listening on the defined port (or 3000 by default)
 var listener = app.listen(process.env.PORT || 3000, function(server) {
   console.log('Application listening on http://localhost:' + listener.address().port);
 });
