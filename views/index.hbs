@@ -1,0 +1,16 @@
+<h1>Click to call</h1>
+<p>Enter your phone number below to receive a call back.</p>
+
+{{#if error}}
+  <p class="text-danger">{{ error }}</p>
+{{/if}}
+
+<div class="row">
+  <form action="/calls" method="POST" class="col-lg-4 col-md-6 col-sm-8">
+    <div class="form-group">
+      <label for="phoneNumber">Your phone number</label>
+      <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="+447123456789" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Call me</button>
+  </form>
+</div>
