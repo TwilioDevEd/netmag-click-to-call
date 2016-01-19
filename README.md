@@ -3,8 +3,8 @@
 To run this application, clone the repo and install the dependencies:
 
 ```
-$ git clone https://github.com/philnash/twilio-netmag.git
-$ cd twilio-netmag
+$ git clone https://github.com/TwilioDevEd/netmag-click-to-call.git
+$ cd netmag-click-to-call
 $ npm install
 ```
 
